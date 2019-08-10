@@ -16,15 +16,15 @@ public class WMAPlay extends FormatoAudio {
     }
     
     public void play(){
-        
+    	System.out.println("Reproduzindo arquivo em aberto");   
     }
     
     public void stop(){
-        
+    	System.out.println("Reprodução de áudio pausada");
     }
     
     public void open(){
-        
+    	System.out.println("Um arquivo de áudio foi aberto");
     }
  
 }
