@@ -22,7 +22,7 @@ public abstract class FormatoAudio {
     }
 
     public void retornar(int segundosVoltados) {
-        System.out.println("Áudio retrocedido em " + segundosVoltados + " seundos");
+        System.out.println("Áudio retrocedido em " + segundosVoltados + " segundos");
     }
 
     public void liberar() {
